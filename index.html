@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎂 Happy Birthday Yash!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday Yash! 🎉</h1>
+    <p>Click the button for a surprise!</p>
+    <button id="confettiBtn">🎁 Click Me!</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script>
+    document.getElementById('confettiBtn').addEventListener('click', () => {
+      confetti();
+    });
+  </script>
+</body>
+</html>
